@@ -1,0 +1,118 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: linear-gradient(180deg, #101a2e 0%, #0b1220 100%);
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  min-width: 380px;
+  max-width: 480px;
+  border: 1px solid rgba(125, 211, 168, 0.18);
+}
+
+.modal-content h2 {
+  margin: 0 0 0.75rem 0;
+  color: #f5f8ff;
+  font-size: 1.55rem;
+}
+
+.modal-content p {
+  margin: 0 0 1.25rem 0;
+  color: #a8b0bb;
+  font-size: 0.98rem;
+}
+
+.professional-select {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  margin-bottom: 1.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  font-size: 1rem;
+  color: #e8eefc;
+  background: rgba(255, 255, 255, 0.04);
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, #7dd3a8 50%), linear-gradient(135deg, #7dd3a8 50%, transparent 50%), radial-gradient(circle at center, rgba(255,255,255,0.2) 10%, transparent 11%);
+  background-position: calc(100% - 1rem) calc(50% + 2px), calc(100% - 0.75rem) calc(50% + 2px), calc(100% - 2rem) 50%;
+  background-size: 8px 8px, 8px 8px, 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.professional-select:hover {
+  border-color: rgba(125, 211, 168, 0.8);
+}
+
+.professional-select:focus {
+  outline: none;
+  border-color: #7dd3a8;
+  box-shadow: 0 0 0 4px rgba(125, 211, 168, 0.18);
+}
+
+.professional-select option {
+  background: #0b1220;
+  color: #e8eefc;
+}
+
+.professional-select:disabled {
+  background-color: rgba(255, 255, 255, 0.03);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.btn {
+  padding: 0.95rem 1.5rem;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn.primary {
+  background-color: #7dd3a8;
+  color: #0b1220;
+}
+
+.btn.primary:hover:not(:disabled) {
+  background-color: #5bb18f;
+}
+
+.btn.primary:disabled {
+  background-color: rgba(125, 211, 168, 0.45);
+  cursor: not-allowed;
+}
+
+.btn.secondary {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #e8eefc;
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+.btn.secondary:hover:not(:disabled) {
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+.btn.secondary:disabled {
+  background-color: rgba(255, 255, 255, 0.04);
+  cursor: not-allowed;
+}

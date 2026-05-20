@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="box">
+    <h1>Bem-vindo, {{ user.username }}!</h1>
+    <p>Você está autenticado no sistema e conectado ao banco PostgreSQL.</p>
+    <p>Use as rotas de API protegidas da aplicação a partir daqui.</p>
+</div>
+{% endblock %}

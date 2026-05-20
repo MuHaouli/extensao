@@ -1,0 +1,100 @@
+.face-page {
+  min-height: 100vh;
+  padding: 24px;
+  background: #0b1220;
+  color: #e8eefc;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.face-back {
+  margin: 0 0 12px 0;
+}
+
+.face-back-link {
+  color: #93c5fd;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.face-back-link:hover {
+  text-decoration: underline;
+}
+
+.face-title {
+  margin: 0 0 16px 0;
+  font-size: 22px;
+}
+
+.cameraWrap {
+  position: relative;
+  width: min(720px, 100%);
+  aspect-ratio: 4 / 3;
+  background: #111a2f;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.capture {
+  display: none;
+}
+
+.status {
+  margin-top: 14px;
+  width: min(720px, 100%);
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  line-height: 1.6;
+}
+
+.recordingBox {
+  margin-top: 14px;
+}
+
+.recordingButtons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.06);
+  color: #e8eefc;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn.danger {
+  border-color: rgba(255, 90, 90, 0.5);
+  background: rgba(255, 90, 90, 0.12);
+}
+
+.recordingMeta {
+  opacity: 0.95;
+}
