@@ -1,6 +1,6 @@
 django==4.2.29
 opencv-python-headless==4.10.0.84
-mediapipe==0.10.14
+mediapipe==0.10.35
 numpy==1.26.4
 django-cors-headers==4.4.0
 psycopg2-binary==2.9.10
