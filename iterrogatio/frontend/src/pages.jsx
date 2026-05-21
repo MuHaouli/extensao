@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { SideNav } from "./components/SideNav";
+import logoMenuHomem from "./assets/logoMenuHomem.png";
+
 export function LandingPage({ goToAuth }) {
   return (
     <div className="landing-view">
@@ -18,7 +20,7 @@ export function LandingPage({ goToAuth }) {
         </div>
         <div className="landing-hero">
           <img 
-            src="/logoMenuHomem.png" 
+            src={logoMenuHomem} 
             alt="Illustration" 
             className="landing-hero-image" 
           />
