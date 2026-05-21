@@ -9,9 +9,6 @@ urlpatterns = [
     path('', include('core.urls')),
 
     # React app
-    path(
-        '',
-        TemplateView.as_view(template_name='index.html'),
-        name='react_app'
-    ),
+    path('', TemplateView.as_view(template_name='index.html'), name='react_app'),
+
 ]
