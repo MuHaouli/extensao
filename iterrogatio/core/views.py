@@ -10,10 +10,8 @@ from django.views.decorators.http import require_POST
 
 import json
 
-@login_required
 def home(request):
-    return render(request, 'home.html', {'user': request.user})
-
+    return render(request, 'index.html')
 
 @csrf_exempt
 def analyze_face(request):
