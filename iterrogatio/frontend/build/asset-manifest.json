@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6e71961.css",
+    "main.js": "/static/js/main.e0d96cdc.js",
+    "static/js/453.825386d9.chunk.js": "/static/js/453.825386d9.chunk.js",
+    "static/media/logoMenuHomem.png": "/static/media/logoMenuHomem.9896ecfa754055da6d92.png",
+    "index.html": "/index.html",
+    "main.f6e71961.css.map": "/static/css/main.f6e71961.css.map",
+    "main.e0d96cdc.js.map": "/static/js/main.e0d96cdc.js.map",
+    "453.825386d9.chunk.js.map": "/static/js/453.825386d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6e71961.css",
+    "static/js/main.e0d96cdc.js"
+  ]
+}
