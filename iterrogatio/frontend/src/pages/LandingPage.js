@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./LandingPage.css";
+import logoMenuHomem from "./assets/logoMenuHomem.png";
 
 export default function LandingPage() {
   return (
@@ -28,7 +29,7 @@ export default function LandingPage() {
 
         <section className="landing-hero" aria-label="Logo do produto">
           <img 
-            src="/logoMenuHomem.png" 
+            src={logoMenuHomem} 
             alt="Illustration" 
             className="landing-hero-image" 
           />
