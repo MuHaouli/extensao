@@ -200,3 +200,5 @@ TEMPLATES[0]['DIRS'] = [
     BASE_DIR / 'frontend/build',
 ]
 }
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
