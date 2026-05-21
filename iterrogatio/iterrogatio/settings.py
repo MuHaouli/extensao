@@ -191,4 +191,11 @@ LOGGING = {
             'propagate': True,
         },
     },
+STATICFILES_DIRS = [
+    BASE_DIR / 'frontend/build/static',
+]
+
+TEMPLATES[0]['DIRS'] = [
+    BASE_DIR / 'frontend/build',
+]
 }
