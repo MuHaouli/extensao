@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./LandingPage.css";
-import logoMenuHomem from "./assets/logoMenuHomem.png";
+import logoMenuHomem from "../assets/logoMenuHomem.png";
 
 export default function LandingPage() {
   return (
